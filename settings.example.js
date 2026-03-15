@@ -1,4 +1,3 @@
-window.INVITATION_URL = "https://your-invitation-domain.com";
-window.RSVP_FORM_URL = "https://docs.google.com/forms/d/e/your-form-id/viewform";
-window.UTTERANCES_REPO = "owner/repo";
-window.KAKAO_APP_KEY = "YOUR_JAVASCRIPT_KEY";
+// 배포 후 실제 공개 URL로 변경해서 settings.js 파일로 저장하세요.
+// 예: window.INVITATION_URL = "https://our-wedding.onrender.com";
+window.INVITATION_URL = "";
