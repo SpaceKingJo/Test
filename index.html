@@ -104,6 +104,7 @@
 
       <section class="guestbook card" id="guestbook">
         <h2>방명록</h2>
+        <p class="guestbook-note">남겨주신 메시지는 서버 DB에 저장되어 하객 모두가 함께 볼 수 있어요.</p>
         <form id="guestbook-form">
           <input type="text" id="name" placeholder="이름" maxlength="12" required />
           <textarea id="message" placeholder="축하 메시지를 남겨주세요" maxlength="140" required></textarea>
@@ -118,6 +119,8 @@
       <button id="close-lightbox" aria-label="닫기">닫기</button>
     </dialog>
 
+    <script>window.INVITATION_URL = window.INVITATION_URL || "";</script>
+    <script src="settings.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/qrcodejs@1.0.0/qrcode.min.js"></script>
     <script src="script.js"></script>
   </body>

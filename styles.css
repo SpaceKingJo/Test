@@ -190,6 +190,13 @@ h2 {
   border-radius: 10px;
 }
 
+
+.guestbook-note {
+  margin: 8px 0 12px;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
 #guestbook-form {
   display: grid;
   gap: 8px;
